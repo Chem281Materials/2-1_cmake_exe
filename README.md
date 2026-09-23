@@ -16,5 +16,5 @@ Hint: To convert from an `std::vector<double>` called `std_vector` to an Eigen3 
 Eigen::Map<Eigen::VectorXd> eigen_vector(std_vector.data(), std_vector.size());
 ```
 
-4. Create a GitHub Actions job that links your code against BLAS and runs the code.  You can run this calculation within a Docker container or directly on the GitHub runner (your choice).
-5. Create another GitHub Actions job that links your code against Eigen and runs the code.  You can run this calculation within a Docker container or directly on the GitHub runner (your choice).
+4. Create a GitHub Actions job that links your code against BLAS and runs the code.  You can run this calculation within a container or directly on the GitHub runner (your choice).
+5. Create another GitHub Actions job that links your code against Eigen and runs the code.  You can run this calculation within a container or directly on the GitHub runner (your choice).
