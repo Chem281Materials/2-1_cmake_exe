@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker run --rm -it -v $(pwd):/repo msse/cmakeexe
+podman run --rm -it -v $(pwd):/repo msse/cmakeexe

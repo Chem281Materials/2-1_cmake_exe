@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t msse/cmakeexe .
+podman build -t msse/cmakeexe .
